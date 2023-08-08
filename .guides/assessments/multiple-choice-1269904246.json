@@ -1,0 +1,62 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1269904246",
+	"source": {
+		"name": "Function Comprehension",
+		"showName": false,
+		"instructions": "**What does the `ImageChops.add_modulo(image1, image2)` function do?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "310232c1-6411-7658-a95e-857a766b669f",
+				"correct": false,
+				"answer": "Multiplies the pixel values of image1 and image2."
+			},
+			{
+				"_id": "cec978f7-5716-e067-1355-dc33a2a1ef0c",
+				"correct": true,
+				"answer": "Adds the pixel values of image1 and image2 together, ensuring that the resulting values don't exceed the maximum allowed value for each color channel."
+			},
+			{
+				"_id": "8bb4cec1-c74f-0db9-0420-13022fb8beb7",
+				"correct": false,
+				"answer": "Averages the pixel values of image1 and image2."
+			},
+			{
+				"_id": "80d01db7-e261-232b-1dca-9fcb24925d16",
+				"correct": false,
+				"answer": "Blends image1 and image2 using a custom gradient mask."
+			}
+		],
+		"guidance": "The `ImageChops.add_modulo(image1, image2)` function adds the pixel values of image1 and image2 together while ensuring that the resulting values don't exceed the maximum allowed value for each color channel. In the case of an 8-bit image, the maximum allowed value is 255. If the sum of two pixel values would exceed 255, the result wraps around from 0.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"imageGen.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "imageGen.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

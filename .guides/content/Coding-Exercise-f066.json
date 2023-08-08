@@ -1,0 +1,21 @@
+{
+	"id": "f0661909-03e0-9e2f-0fb8-e58d4516089f",
+	"title": "Coding Exercise",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "exerc.py",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": ""
+}

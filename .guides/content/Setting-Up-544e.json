@@ -1,0 +1,17 @@
+{
+	"id": "544e102b-5194-86e2-e5db-d50dbe954f48",
+	"title": "Setting Up",
+	"files": [
+		{
+			"path": "imageGen.py",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"contentType": "markdown",
+	"type": "page",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "2-panels"
+}

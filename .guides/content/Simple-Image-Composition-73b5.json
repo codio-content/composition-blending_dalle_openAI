@@ -1,0 +1,17 @@
+{
+	"id": "73b54f67-fdea-f8ba-a06b-7cd4edd0b00c",
+	"title": "Simple Image Composition",
+	"files": [
+		{
+			"path": "imageGen.py",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "3-cell"
+}

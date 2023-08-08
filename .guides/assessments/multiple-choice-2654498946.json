@@ -1,0 +1,62 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2654498946",
+	"source": {
+		"name": "blending mode ",
+		"showName": false,
+		"instructions": "**Which blending mode preserves the highlights and shadows of the bottom image when combining two images?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "e9efea89-a28b-f718-25ba-d3721cd8fb3d",
+				"correct": false,
+				"answer": "Normal"
+			},
+			{
+				"_id": "596e2296-d920-8324-1ed1-6176ae1e7a6f",
+				"correct": false,
+				"answer": "Multiply"
+			},
+			{
+				"_id": "61f02022-2049-fa76-c969-01d5f343a733",
+				"correct": false,
+				"answer": "Screen"
+			},
+			{
+				"_id": "60a6fbc6-c433-428e-0f2b-8f281e38d6b4",
+				"correct": true,
+				"answer": "Overlay"
+			}
+		],
+		"guidance": "The Overlay blending mode combines Multiply and Screen modes, preserving the highlights and shadows of the bottom image when the two images are combined.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"imageGen.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "imageGen.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

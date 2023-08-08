@@ -1,0 +1,55 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-1270049894",
+	"source": {
+		"name": "Code test",
+		"showName": false,
+		"instructions": "When ready to submit click the button below. As we are generating multiple images, **please make sure not to call your function when submitting your code.**",
+		"command": "python .guides/secure/tester.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "```python\nimport os\nimport openai\nimport secret\nfrom PIL import Image, ImageChops\nfrom io import BytesIO\nimport requests\n\nopenai.api_key = secret.api_key\n\n# Function to generate an image using DALL-E\ndef generate_base_image(prompt):\n    response = openai.Image.create(\n        prompt=prompt,\n        n=1,\n        size=\"512x512\"\n    )\n    return response['data'][0]['url']\n\n# Function to download the image\ndef download_image(image_url, x):\n    response = requests.get(image_url)\n    img_data = response.content\n    img = Image.open(BytesIO(img_data))\n    with open(x+'.png', 'wb') as handler:\n        handler.write(img_data)\n    return img\n\n# Function to blend the images\ndef custom_blend(image1, image2):\n    return ImageChops.add_modulo(image1, image2).point(lambda x: x // 2)\n\n# The required function that combines the above operations\ndef combine(prompt1, prompt2):\n    # Generate the images\n    image1_url = generate_base_image(prompt1)\n    image2_url = generate_base_image(prompt2)\n\n    # Download and open the generated images\n    image1 = download_image(image1_url, 'image1')\n    image2 = download_image(image2_url, 'image2')\n\n    # Blend the images\n    result = custom_blend(image1, image2)\n\n    # Save the final image\n    result.save('final_blended.png')\n\n# Call the combine function with two prompts\n\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "All tests passed!\n",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"exerc.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "exerc.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

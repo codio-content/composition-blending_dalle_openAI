@@ -1,0 +1,21 @@
+{
+	"id": "f64d8ddb-44cc-b2a7-4348-27403ad206c0",
+	"title": "Advanced Blending Techniques",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "imageGen.py",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": ""
+}

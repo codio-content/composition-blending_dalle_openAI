@@ -1,0 +1,62 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2995036391",
+	"source": {
+		"name": "Function comprehension",
+		"showName": false,
+		"instructions": "**In the given example, we generate two images using the DALL-E 2 API: a moon and a night sky. What do we do next to create a composite image?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "685e7eb6-4a7c-ae9d-06e5-6d2661703c43",
+				"correct": true,
+				"answer": "Overlay the moon image on top of the night sky image."
+			},
+			{
+				"_id": "2e3b5977-2c9d-4d19-6e1c-ff81615e00be",
+				"correct": false,
+				"answer": "Blend the moon and night sky images using a mask."
+			},
+			{
+				"_id": "18425052-628d-4087-34b1-0889ca38474a",
+				"correct": false,
+				"answer": "Apply a filter to both images before combining them."
+			},
+			{
+				"_id": "d68d0769-4139-51b7-fdc7-0ae9913bc744",
+				"correct": false,
+				"answer": "Use a gradient mask to create a smooth transition between the images."
+			}
+		],
+		"guidance": "Overlay the moon image on top of the night sky image.\nIn this example, we resize the moon image and ensure it has an alpha channel. Then, we simply overlay the moon image on top of the night sky image using the `paste()` function from the PIL library. This creates a composite image with the moon placed over the night sky.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"imageGen.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "imageGen.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2876945861",
+	"source": {
+		"name": "Custom mask for image compositing",
+		"showName": false,
+		"instructions": "\n**When using a custom mask for image compositing, the black areas of the mask will take the corresponding pixels from `image1`, while the white areas will take the pixels from `image2`.**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "cda9daa7-66ab-e4c9-f900-0daeb74f5537",
+				"correct": true,
+				"answer": "True"
+			},
+			{
+				"_id": "339fc05b-41b1-c999-a01d-a2303f0f333a",
+				"correct": false,
+				"answer": "False"
+			}
+		],
+		"guidance": "True. When using a custom mask for image compositing, the black areas of the mask will indeed take the corresponding pixels from `image1`, while the white areas will take the pixels from `image2`. Gray areas of the mask will result in a blend of the two images, allowing for smooth transitions and visually appealing compositions.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"imageGen.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "imageGen.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

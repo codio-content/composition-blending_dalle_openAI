@@ -1,0 +1,25 @@
+{
+	"title": "Image Composition and Blending",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": true,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Learning-Objectives-a580",
+		"Setting-Up-544e",
+		"Simple-Image-Composition-73b5",
+		"-Image-Compositing-with-Masks-4284",
+		"Image-Blending-with-Different-Modes-d0b2",
+		"Advanced-Blending-Techniques-f64d",
+		"Combining-Custom-Gradient-Masks-with-Custom-Blend--9049",
+		"Coding-Exercise-f066"
+	]
+}

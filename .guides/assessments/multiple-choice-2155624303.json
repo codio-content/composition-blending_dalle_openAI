@@ -1,0 +1,52 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2155624303",
+	"source": {
+		"name": "Custom blend modes ",
+		"showName": false,
+		"instructions": "**Custom blend modes can only be created using built-in functions provided by the PIL library.**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "08e07508-923a-6e5e-07bd-a951875aa6f7",
+				"correct": false,
+				"answer": "True"
+			},
+			{
+				"_id": "a7a49431-48df-2f08-90b7-a46d5c422c9b",
+				"correct": true,
+				"answer": "False"
+			}
+		],
+		"guidance": "You can create custom blend modes by defining your own functions that take the color values of the top and bottom images and return a new color value. This allows you to achieve unique and creative blending effects that may not be available with the built-in blending modes provided by the PIL library.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"imageGen.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "imageGen.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}
